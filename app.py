@@ -8,6 +8,7 @@ st.set_page_config(page_title="QA Code Analyzer", page_icon="🔬")
 st.title("🧬 Quasi-Abelian Group Code Analyzer")
 st.markdown("""
 This tool computes the **Wedderburn decomposition** of group algebras $FG$ for abelian groups $G$. 
+It determines the irreducible components and checks for semisimplicity, essential for analyzing **Quasi-Abelian (QA) codes**.
 """)
 
 # --- SIDEBAR INPUTS ---
