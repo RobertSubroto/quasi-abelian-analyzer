@@ -32,7 +32,7 @@ try:
     # --- METRICS OVERVIEW ---
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Dimension", algebra.dim)
-    col2.metric("Complexity (η)", algebra.complexity)
+    col2.metric("Complexity", algebra.complexity)
     col3.metric("Semisimple", "Yes" if algebra.is_semisimple else "No")
 
     # Warnings for Non-Semisimple cases
